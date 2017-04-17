@@ -9,3 +9,10 @@ Plantilla de script posterior a la implementación
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+CREATE TABLE Mis_Empleados(
+	ID int(4) not null,
+	Apellidos varchar(25),
+	Nombres varchar(25),
+	Codigo varchar(10),
+	Salario float(9,2)
+)
