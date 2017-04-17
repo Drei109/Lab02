@@ -143,5 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Lab02_01.sql" />
+    <None Include="Scripts\Lab02_02.sql" />
   </ItemGroup>
 </Project>
