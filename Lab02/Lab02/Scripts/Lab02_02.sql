@@ -1,18 +1,4 @@
-﻿/*
-Plantilla de script posterior a la implementación							
---------------------------------------------------------------------------------------
- Este archivo contiene instrucciones de SQL que se anexarán al script de compilación.		
- Use la sintaxis de SQLCMD para incluir un archivo en el script posterior a la implementación.			
- Ejemplo:      :r .\miArchivo.sql								
- Use la sintaxis de SQLCMD para hacer referencia a una variable en el script posterior a la implementación.		
- Ejemplo:      :setvar TableName miTabla							
-               SELECT * FROM [$(TableName)]					
---------------------------------------------------------------------------------------
-*/
-CREATE TABLE Mis_Empleados(
-	ID int(4) not null,
-	Apellidos varchar(25),
-	Nombres varchar(25),
-	Codigo varchar(10),
-	Salario float(9,2)
-)
+﻿---Ejercicio 2---
+insert into Mis_empleados values(1,'Vargas Canseco','Raul','Rvargas',895),
+(2,'Castro Feria','Raul','Rvargas',895),(3,'Gomez Alban','Juan Pablo','Jgomez',1100),
+(4,'Quiroz Ardiles','Judith','Jquiroz',750),(5,'Soria Peralta','Pedro','Psoria',1550);
