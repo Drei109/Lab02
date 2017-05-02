@@ -1,1 +1,1 @@
-﻿select * from Mis_empleados
+﻿---

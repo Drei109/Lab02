@@ -1,2 +1,6 @@
-﻿----Ejercicio 6----
-DELETE FROM Mis_empleados WHERE id = 2
+﻿
+
+
+----*** Ejercicio 7 ***---
+create UNIQUE index departamentos_index
+on table Departamentos;

@@ -1,9 +1,7 @@
-﻿
----Ejercicio 1--
-create table Mis_empleados(
-id int(4) not null primary key,
-apellido varchar2(25) null,
-nombres varchar2(25) null,
-codigo varchar2(10) null,
-salario float(9,2) null
-)
+﻿---**Ejercicio 1------
+CREATE VIEW VW_EMPLEADOS
+ AS SELECT employee_id, first_name, d.department_id
+ FROM employees as e, departments as d
+ WHERE d.department_id = e.department_id;
+
+  select * from VW_EMPLEADOS;

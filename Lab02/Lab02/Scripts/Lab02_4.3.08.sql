@@ -1,3 +1,6 @@
-﻿----Ejercicio 8---
+﻿---** Ejercicio 8 **---
+CREATE SYNONYM EMP
+FOR employees;
 
-savepoint;
+
+select * from EMP;

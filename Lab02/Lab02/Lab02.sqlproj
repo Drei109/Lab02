@@ -140,18 +140,34 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <None Include="Scripts\Lab02_04.sql" />
-    <None Include="Scripts\Lab02_05.sql" />
-    <None Include="Scripts\Lab02_07.sql" />
-    <None Include="Scripts\Lab02_11.sql" />
-    <None Include="Scripts\Lab02_08.sql" />
-    <None Include="Scripts\Lab02_09.sql" />
-    <None Include="Scripts\Lab02_10.sql" />
-    <None Include="Scripts\Lab02_06.sql" />
+    <None Include="Scripts\Lab02_4.1.04.sql" />
+    <None Include="Scripts\Lab02_4.1.05.sql" />
+    <None Include="Scripts\Lab02_4.1.07.sql" />
+    <None Include="Scripts\Lab02_4.1.11.sql" />
+    <None Include="Scripts\Lab02_4.1.08.sql" />
+    <None Include="Scripts\Lab02_4.1.09.sql" />
+    <None Include="Scripts\Lab02_4.1.10.sql" />
+    <None Include="Scripts\Lab02_4.1.06.sql" />
+    <None Include="Scripts\Lab02_4.2.01.sql" />
+    <None Include="Scripts\Lab02_4.2.08.sql" />
+    <None Include="Scripts\Lab02_4.2.07.sql" />
+    <None Include="Scripts\Lab02_4.2.06.sql" />
+    <None Include="Scripts\Lab02_4.2.05.sql" />
+    <None Include="Scripts\Lab02_4.2.04.sql" />
+    <None Include="Scripts\Lab02_4.2.03.sql" />
+    <None Include="Scripts\Lab02_4.2.02.sql" />
+    <None Include="Scripts\Lab02_4.3.01.sql" />
+    <None Include="Scripts\Lab02_4.3.08.sql" />
+    <None Include="Scripts\Lab02_4.3.06.sql" />
+    <None Include="Scripts\Lab02_4.3.07.sql" />
+    <None Include="Scripts\Lab02_4.3.05.sql" />
+    <None Include="Scripts\Lab02_4.3.04.sql" />
+    <None Include="Scripts\Lab02_4.3.03.sql" />
+    <None Include="Scripts\Lab02_4.3.02.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Scripts\Lab02_01.sql" />
-    <None Include="Scripts\Lab02_02.sql" />
-    <None Include="Scripts\Lab02_03.sql" />
+    <PostDeploy Include="Scripts\Lab02_4.1.01.sql" />
+    <None Include="Scripts\Lab02_4.1.02.sql" />
+    <None Include="Scripts\Lab02_4.1.03.sql" />
   </ItemGroup>
 </Project>

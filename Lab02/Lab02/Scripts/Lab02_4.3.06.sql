@@ -1,3 +1,9 @@
 ﻿
-----Ejercicio 7-----
-insert into Mis_empleados(6,'Hurtado Gamboa','Ernesto','Ehurtado',1400)
+ ---** Ejercicio 6 -------
+  CREATE SEQUENCE SEQ_Departamentos_ID
+INCREMENT BY 10
+START WITH 200
+MAXVALUE 1000
+NO CYCLE
+NO CACHE;
+,'Ernesto','Ehurtado',1400)
